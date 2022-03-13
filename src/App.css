@@ -1,7 +1,14 @@
-.App {
-  text-align: center;
-}
+body{
+  background-color: #8d8383;
 
+}
+.App {
+  padding:4rem;
+
+}
+.form{
+  background-color: #4b4f4b;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
