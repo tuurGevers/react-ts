@@ -6,6 +6,8 @@ import MuiButton from "./components/MuiButton";
 import {MuiTextField} from "./components/MuiTextField";
 import Counter from "./components/Counter";
 import {MuiSelect} from "./components/MuiSelect";
+import MuiSlider from "./components/MuiSlider";
+import RgbSlider from "./components/RgbSlider";
 
 function App() {
     return (
@@ -15,10 +17,15 @@ function App() {
             <Greet name="tuur"/>
             <MuiTypography />
             <MuiTextField/>
-            <Counter/>
-            <MuiSelect/>
-            */}
+
             <MuiButton/>
+            <MuiSelect/>
+            <Counter/>
+            <MuiSlider/>
+            */}
+
+            <RgbSlider/>
+
 
 
 

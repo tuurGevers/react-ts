@@ -1,4 +1,4 @@
-import {Box, TextField, MenuItem, Typography} from "@mui/material"
+import {Box, TextField, MenuItem} from "@mui/material"
 import React, {useState} from "react";
 
 export const MuiSelect = () => {
