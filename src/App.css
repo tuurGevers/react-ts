@@ -43,9 +43,7 @@ body{
   position: absolute;
   height: 100%;
   width: 100%;
-  background: white;
   line-height: 300px;
-  color: #03446A;
   text-align: center;
   font-size: 60px;
   border-radius: 5px;
@@ -53,8 +51,6 @@ body{
 }
 
 .back {
-  background: #03446A;
-  color: white;
   transform: rotateY( 180deg );
 }
 

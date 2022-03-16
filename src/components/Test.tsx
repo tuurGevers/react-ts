@@ -24,7 +24,7 @@ const Test = (props: cardProps) => {
         <div className="card">
             <div className="content">
                 <div className="front">
-                    <Card>
+                    <Card sx={{borderRadius:"20px"}}>
                         <CardMedia sx={{backgroundColor: "#Ece2df", height: "215px"}}><img src={props.img}
                                                                                            alt="profile picture"
                                                                                            style={{
@@ -35,10 +35,10 @@ const Test = (props: cardProps) => {
                     </Card>
                 </div>
                 <div className="back">
-                    <Card>
+                    <Card sx={{borderRadius:"20px"}}>
                         <CardContent sx={{backgroundColor: "#Ece2df"}}><Typography
                             variant="h5">{props.firstName} {props.lastName}</Typography></CardContent>
-                        <CardContent sx={{height: "200px", overflow: "scroll"}}>
+                        <CardContent sx={{height: "200px", overflow: "auto"}}>
                             <Accordion sx={{marginBottom: "10px"}}>
                                 <AccordionSummary
                                     expandIcon={<ExpandMoreIcon/>}
