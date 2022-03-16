@@ -13,7 +13,7 @@ export const MuiTextField = () => {
 
             </Stack>
 
-            <Stack spacing={2}>
+            <Stack sx={{padding:"2em"}}>
                 <TextField label={"form input"}
                            size="small" value={value}
                            onChange={e => setValue(e.target.value)}

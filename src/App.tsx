@@ -8,6 +8,13 @@ import Counter from "./components/Counter";
 import {MuiSelect} from "./components/MuiSelect";
 import MuiSlider from "./components/MuiSlider";
 import RgbSlider from "./components/RgbSlider";
+import MuiSwitch from "./components/MuiSwitch";
+import MuiLayout from "./components/MuiLayout";
+import MuiCard from "./components/MuiCard";
+import Form from "./components/Form";
+import Json from "./components/Json";
+import RandomApi from "./components/RandomApi";
+import Test from "./components/Test";
 
 function App() {
     return (
@@ -22,9 +29,20 @@ function App() {
             <MuiSelect/>
             <Counter/>
             <MuiSlider/>
+            <RgbSlider/>
+            <MuiSwitch/>
+            <MuiLayout/>
+            <MuiCard/>
+            <Form/>
+            <Json/>
             */}
 
-            <RgbSlider/>
+
+            <RandomApi/>
+
+
+
+
 
 
 
