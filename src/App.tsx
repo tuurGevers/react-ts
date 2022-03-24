@@ -15,6 +15,7 @@ import Form from "./components/Form";
 import Json from "./components/Json";
 import RandomApi from "./components/RandomApi";
 import Test from "./components/Test";
+import ContactForm from "./components/contactForm";
 
 function App() {
     return (
@@ -35,10 +36,14 @@ function App() {
             <MuiCard/>
             <Form/>
             <Json/>
+            <RandomApi/>
+
             */}
 
+            <ContactForm/>
 
-            <RandomApi/>
+
+
 
 
 
